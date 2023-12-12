@@ -1,0 +1,80 @@
+/*-----------------------------------*\
+  #CONTACT US
+\*-----------------------------------*/
+
+body,html {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+  
+}
+
+.contact-us{
+  height: 550px;
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1500840216050-6ffa99d75160?auto=format&fit=crop&q=80&w=1797&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+.line{
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  color: #FFFFFF; 
+  background-color: #000000; 
+  font-family: Futura, sans-serif;
+  border-top-right-radius: 70%;
+  border-top-left-radius: 70%;
+}
+
+p{
+ font-size: 15px;
+ color:#ffebeb;
+}
+
+.containrer{
+  max-width: auto;
+  height: 360px;
+  margin: 30px;
+  padding: 15px 15px;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/806249708/photo/womens-makeup-lying-on-red-silk-with-space-for-your-text.jpg?s=612x612&w=0&k=20&c=B7nKYU4P5VP_aOra_z_dX87kHaD4vN0dCHGjC_O0dVM=);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10%;
+}
+
+#name,#email,#subject{
+  width: 50%;
+  height: 20px;
+}
+
+#message{
+  width: 50%;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  margin-top: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+

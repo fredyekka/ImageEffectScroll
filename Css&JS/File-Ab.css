@@ -1,0 +1,102 @@
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto",sans-serif;
+    
+}
+html,body{
+    height:  100%;
+    width: 100%;
+    
+}
+
+.About{
+    padding: 20px 30px;
+}
+.containrer{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex{
+        flex: 0 50%;
+        max-width: 50%;
+        padding: 0 20px;
+        margin-left: 50px;
+        
+    }
+    .flex-img{
+        flex: 10%;
+        max-width: 100%;
+        padding: 0 50px;
+        margin-right: 60px;
+       
+    }
+    .About h2{
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: 2px;
+        color: #ee1d05;
+        font-family: Guardian Egyptian Regular sans-serif;
+        padding: 0px;
+    }
+    .About p{
+        font-size: 15px;
+        line-height: 1.5;
+        color: #37043a;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+    }
+    .About img{
+        
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        
+        
+    }
+    .social-link{
+        margin-bottom: 10px;
+    }
+    .social-link a{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 20%;
+        margin-left: 120px;
+        margin-right: 100px;
+       transition: all 0.4s ease;
+        
+    }
+    .social-link a:hover{
+        transform: translate(-3px);
+        background-color: rgb(249, 164, 5);
+    }
+    
+    @media screen and (max-width: 768px) {
+        .row {
+            flex-direction: column-reverse;
+        }
+    
+        .flex, .flex-img {
+            max-width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0 20px; 
+        }
+    }
+    

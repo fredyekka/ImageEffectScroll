@@ -1,0 +1,110 @@
+/*-----------------------------------*\
+  #SEVISCE
+\*-----------------------------------*/
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1598528738936-c50861cc75a9?auto=format&fit=crop&q=80&w=1780&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.service-wrap {
+    padding: 3% 5%;
+}
+
+.service {
+    display: flex;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+h1 {
+    color: #f00909;
+    font-size: 3rem;
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #0acb27;
+    font-size: 20px;
+    margin: 10px 0; /* Fix the margin property */
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: #18e1e1;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    gap: 15px;
+    color: #18e1e1;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-M {
+    padding: 15px;
+    padding-top: 30px;
+    height: 100%;
+    max-width: 100%; /* Adjust to fit smaller screens */
+    background-color: rgb(24, 22, 39);
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    text-align: center;
+}
+
+.cards i {
+    color: rgb(229, 85, 85);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+}
+
+@media screen and (max-width: 768px) {
+    .service {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .cards-M {
+        padding: 15px;
+        padding-top: 30px;
+        border-top-right-radius: 0; /* Remove the rounded corners */
+        border-bottom-left-radius: 0;
+    }
+}
+
+
+
